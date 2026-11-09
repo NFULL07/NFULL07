@@ -20,6 +20,13 @@
 | 진로 | AI 서비스 기획 · PM |
 | 관심 | 공공데이터 기반 서비스 · MCP · 데이터 규칙 설계 · AI 결과 검증 |
 
+## 🔭 Currently Building
+
+| 프로젝트 | 내용 | 현재 단계 |
+| :--- | :--- | :--- |
+| 청년픽 NEXT | 천안 청년의 정책 검토·신청 준비 지원 | 모두의 AI 충청 권역 선정 · 기획·개발 진행 |
+| 거닐다 | 지역 문화·역사를 활용한 로컬 관광 브랜드 | 모두의 창업 1라운드 선정 · 아이템 구체화 |
+
 ## 🚀 Projects
 
 <table>
@@ -68,8 +75,6 @@
 | :--- | :--- | :--- |
 | 2026.03–07 | Kakao AI KANANA 429 Ambassador | 월별 우수 콘텐츠 <b>3회</b> |
 | 2026.04–07 | 한국무역보험공사 AI·데이터 서포터즈 | 데이터 결합 · 시뮬레이터 규칙 설계·검증 |
-| 2026 | 모두의 AI 충청 권역 선정 | 청년정책 실행지원 서비스 <b>청년픽 NEXT</b> 기획·개발 진행 |
-| 2026 | 모두의 창업 1라운드 선정 | 로컬 관광 브랜드 <b>거닐다</b> 기획 |
 | 2026.02– | all of them 설립·운영 | 스터디·공모전 커뮤니티 운영 |
 
 ## 🏆 Awards
@@ -79,23 +84,33 @@
 | 2026.09 | Best Rookie Award | 카카오 · AI KANANA 429 Ambassador |
 
 
-## 🛠 Tools Used in Projects
+## 🛠 Project Tools & Learning
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/MCP-181717?style=flat-square" alt="MCP"/>
-  <img src="https://img.shields.io/badge/REST_API-2563EB?style=flat-square" alt="REST API"/>
-</p>
-
-## 🌱 Learning
-
-| 분야 | 학습 기록 |
-| :--- | :--- |
-| Python | [Python TIL](https://github.com/NFULL07/Python-TIL) |
-| Java | [Java TIL](https://github.com/NFULL07/JAVA-TIL) |
-| C · 자료구조 | [C TIL](https://github.com/NFULL07/C-TIL) |
+<table>
+  <tr>
+    <th align="left">Language</th>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+    </td>
+  </tr>
+  <tr>
+    <th align="left">API & Integration</th>
+    <td>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+      <img src="https://img.shields.io/badge/MCP-181717?style=flat-square" alt="MCP"/>
+      <img src="https://img.shields.io/badge/REST_API-2563EB?style=flat-square" alt="REST API"/>
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Learning</th>
+    <td>
+      <a href="https://github.com/NFULL07/Python-TIL">Python TIL</a> ·
+      <a href="https://github.com/NFULL07/JAVA-TIL">Java TIL</a> ·
+      <a href="https://github.com/NFULL07/C-TIL">C · 자료구조 TIL</a>
+    </td>
+  </tr>
+</table>
 
 ## 📈 GitHub Stats
 
@@ -103,6 +118,23 @@
   <img width="49%" src="https://github-stats-extended.vercel.app/api?username=NFULL07&show_icons=true&hide_rank=true&theme=transparent&title_color=2563EB&icon_color=2563EB&border_color=D0D7DE" alt="GitHub activity stats"/>
   <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=NFULL07&layout=compact&langs_count=6&theme=transparent&title_color=2563EB&border_color=D0D7DE" alt="Repository languages"/>
 </p>
+
+## 👾 Contribution Playground
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NFULL07/NFULL07/profile-pacman/pacman-contribution-graph-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NFULL07/NFULL07/profile-pacman/pacman-contribution-graph.svg"/>
+  <img width="100%" alt="NFULL07의 GitHub 기여 기록을 바탕으로 생성한 팩맨 애니메이션" src="https://raw.githubusercontent.com/NFULL07/NFULL07/profile-pacman/pacman-contribution-graph.svg"/>
+</picture>
+
+## ✍️ Recent Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+- [천안시탄소중립지원센터: 홍보에서 끝나지 않고 실천서약까지 이어진 3일](https://nfull07.tistory.com/63)
+- [프로덕트 그로스 웨비나: PM의 일은 프로젝트 관리가 아니었다](https://nfull07.tistory.com/60)
+- [\[all of them\] 2026.07~08: 밤샘으로 만든 완성작, 다음은 마감 전에](https://nfull07.tistory.com/58)
+- [선형대수학 1편: 왜 필요할까? Ax = b에서 머신러닝까지](https://nfull07.tistory.com/57)
+<!-- BLOG-POST-LIST:END -->
 
 ---
 
