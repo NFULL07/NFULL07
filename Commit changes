@@ -1,0 +1,58 @@
+name: Update profile widgets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 0 * * *" # 한국시간 매일 09:17
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-widgets.yml
+
+concurrency:
+  group: profile-widgets
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  pacman:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Generate Pac-Man SVGs
+        uses: abozanona/pacman-contribution-graph@294c47eff28a41339a279107ae771b5fa020037a
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: pacman
+
+      - name: Publish generated SVGs
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865
+        with:
+          target_branch: profile-pacman
+          build_dir: dist
+          keep_history: true
+          allow_empty_commit: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  blog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - name: Update recent Tistory posts
+        uses: gautamkrishnar/blog-post-workflow@f177491c77670f150ab4e9b9890254d8eba4164b
+        with:
+          feed_list: https://nfull07.tistory.com/rss
+          max_post_count: 4
+          readme_path: README.md
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
+          enable_keepalive: false
+          commit_message: "docs: update recent blog posts"
