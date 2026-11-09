@@ -51,6 +51,8 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@f177491c77670f150ab4e9b9890254d8eba4164b
         with:
           feed_list: https://nfull07.tistory.com/rss
+          user_agent: "Mozilla/5.0"
+          accept_header: "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8"
           max_post_count: 4
           readme_path: README.md
           gh_token: ${{ secrets.GITHUB_TOKEN }}
