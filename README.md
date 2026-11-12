@@ -132,9 +132,9 @@
 
 <!-- BLOG-POST-LIST:START -->
 - [천안시탄소중립지원센터: 홍보에서 끝나지 않고 실천서약까지 이어진 3일](https://nfull07.tistory.com/63)
+- [대학생이 간다 2편: 활동계획서를 다듬고 노션을 열다](https://nfull07.tistory.com/62)
+- [대학생이 간다 1편: 사업설명회에서 확인한 공모전의 구조](https://nfull07.tistory.com/61)
 - [프로덕트 그로스 웨비나: PM의 일은 프로젝트 관리가 아니었다](https://nfull07.tistory.com/60)
-- [[all of them] 2026.07~08: 밤샘으로 만든 완성작, 다음은 마감 전에](https://nfull07.tistory.com/58)
-- [선형대수학 1편: 왜 필요할까? Ax = b에서 머신러닝까지](https://nfull07.tistory.com/57)
 <!-- BLOG-POST-LIST:END -->
 
 ---
