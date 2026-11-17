@@ -84,6 +84,7 @@
 | 수상일 | 수상 내역 | 기관·프로그램 |
 | :--- | :--- | :--- |
 | 2026.09.20 | Best Rookie Award | 카카오 · AI KANANA 429 Ambassador |
+| 2026.11.14 | 대상(상명대학교 총장상) | 상명대학교 · 충남 IT 해커톤 |
 
 ## 🛠 Project Tools & Learning
 
